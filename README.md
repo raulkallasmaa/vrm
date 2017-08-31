@@ -35,6 +35,7 @@ Or download it manually from the gitlab [page](https://gitlab.com/i-sepp/bcs-koo
 
 * [Silex](http://silex.sensiolabs.org/) - The web framework used
 * [Composer](https://getcomposer.org/) - Dependency Management
+* [Twig](http://twig.sensiolabs.org/) - Php template engine
 
 ## Versioning
 
