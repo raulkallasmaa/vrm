@@ -81,8 +81,9 @@ class Application extends SilexApplication
         $this
             ->match('/bookings/create', new CreateBookingController(
                 $this['form.factory'],
-                $this['twig']
+                $this['twig'],
+                $this['db']
             ))
-        ;
+             ->method('GET|POST');
     }
 }
